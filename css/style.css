@@ -1,0 +1,161 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+#logo-oclock{
+    width: 2.2rem;
+}
+#main-container{
+   display: flex;
+   justify-content: center;
+   align-items: stretch;
+   align-content: stretch;
+    /* flex-wrap: wrap; */
+  
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+
+}
+#welcome-container{
+    width: 100%;
+    background-image: url(../images/nicole.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+   
+}
+#news-container{
+    
+    border: 1px solid black;
+    width: 100%;
+    
+}
+#title-container{
+  display: flex; 
+  justify-content: start; 
+  margin-left: 2em;
+  padding-top: 3em;
+}
+#title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 0.7em;
+    margin-left: 1em;
+}
+
+#introduction{
+    margin: 0 auto;
+    background-color: #f9f9f95d;
+    padding: 2em 1em 2em 10em;
+    width: 60%;
+    text-align: right;
+  
+}
+#latest-news-white{
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+}
+#latest-news-white span {
+    font-weight: normal;
+    font-size: 0.5em;
+    font-style: italic;
+
+}
+.welcome-text{
+    line-height: 1.4;
+}
+nav{
+    text-align: right;
+    margin-bottom: 1.2em;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2em;
+}
+
+#latest-news-black{
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em auto 1em 1em;
+}
+
+#card-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+	
+}
+.card{
+    border: 1px solid #eaeaea;
+     max-width: 375px; 
+    min-width: 100px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    min-height: 350px;
+}
+h4{
+    
+    color: white;
+    padding: 0.5em;
+    border-radius: 8%;
+    display: inline;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.card-news{
+    background-color: #98DC62;
+}
+.card-team{
+    background-color: #DC5E53;
+}
+.card-work{
+    background-color: #0766F0;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.card-user{
+  display: flex;
+  justify-content: flex-start;  
+  align-items: center;
+  font-size: 0.8em;
+}
+.user-photo{
+    width: 7%;
+    
+}
+.user-name {
+    font-weight: bold;
+    margin-left: 0.9em;
+    margin-right: 0.5em;
+}
+.post-date {
+    color: #9b9a9a;
+}
+.post {
+    line-height: 1.4;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-right: 2em;
+}
