@@ -1,5 +1,5 @@
 # oNews
 
-## Intégration
+## Integration
 
-Intégration d'une maquette du site d'un journal d'étudiants.
+Integration of a mock-up for a student newspaper website.
